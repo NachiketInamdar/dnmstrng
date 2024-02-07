@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: mymicroservice
-        image: [YOUR DOCKER ID]/mymicroservice:latest
+        image: nd001/mymicroservice:latest
         ports:
         - containerPort: 80
         env:
